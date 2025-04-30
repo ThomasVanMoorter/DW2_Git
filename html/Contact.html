@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dunder Mifflin Infinity</title>
+	<meta charset = 'UTF-8' />
+	<link rel='stylesheet' href = 'website.css'>
+</head>
+<body>
+	<div class = 'contactBody'>
+		<nav>
+		<a href = 'HomePage.html'>Home Page</a>
+		<a href = 'Webshop.html'>Webshop</a>
+		<a href = 'MeetTheStaff.html'>Meet The Staff</a>
+		<a href = 'FullEpisodes.html'>Full Episodes</a>
+		<a href = 'Contact.html'>Contact</a>
+		</nav>
+		<h1>Contact</h1>
+		<div class = 'contactForm'>
+			<form action = 'mailto:thomas.vanmoorter@student.hogent.be?subject=formulierSite'
+			method='post' enctype = 'text/plain'>
+				<label for = 'name'>Name:</label>
+				<input type = 'text' id = 'name' name = 'name' required>
+
+				<label for = 'surname'>Surname:</label>
+				<input type = 'text' id = 'surname' name = 'surname' required>
+
+				<label for = 'dob'>Date Of Birth:</label>
+				<input type = 'date' id = 'dob' name = 'dob' required>
+				
+				<label for = 'sex'>Sex:</label>
+				<select id="sex" name="sex">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="other">Other</option>
+				</select>
+				
+				<label for = 'los'>Level Of Satisfaction:</label>
+				<select id = 'los' name = 'los'>
+					<option label = 'Not Not Satisfied'>
+					<option label = 'Very Satisfied'>
+					<option label = 'Incredabily Satisfied'>
+					<option label = 'Insanely Satisfied'>
+					<option label = 'Even More Satisfied'>
+				</select>
+				
+				<label for = 'score'>Score:</label>
+				<input type = 'text' id = 'score' name = 'score' value = '20/20' readonly>
+
+				<label for = 'comment'>Comment:</label>
+				<textarea id = 'comment' name = 'comment'>This site is amazing. I would 100% recommend it to my friends and family. All those amazing features. Can't give one bad comment about it. Well done!
+				</textarea>
+
+				<input type = 'submit' value = 'Submit'>
+			</form>
+		</div>
+		
+	</div>
+</body>
+<footer>
+	<p>
+		This website is for accademical use only. 
+		the creator is not responsible for any copyright images or youtube video's. 
+		Caution is adviced using links to external (maybe somewhat illegal) sites.
+	</p>
+</footer>
+</html>
